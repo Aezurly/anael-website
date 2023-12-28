@@ -12,12 +12,12 @@
 
 .links {
     //display: flex;
-    margin:1vw 2vw;
+    margin:0px 2vw;
     width:min-content;
 }
 
 .link {
-    margin: 20px 0px;
+    margin: min(2vh,50px) 0px;
     height: 60px;
     background-image: url('../../assets/01.png');
     image-rendering:crisp-edges;
@@ -25,6 +25,11 @@
     background-repeat: no-repeat;
     padding: 18px 0px 0px 45px;
     width:110px;
+}
+
+.link:last-child {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 a {
