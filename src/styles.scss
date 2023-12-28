@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Train+One&family=VT323&display=swap');
+
+body {
+    background-image: repeating-linear-gradient(
+        #0d0d0d 0px,
+        #0d0d0d 1px,
+        #262626 2px,
+        #262626 3px
+    );
+    margin:0px;
+    overflow:hidden;
+}
