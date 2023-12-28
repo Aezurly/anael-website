@@ -1,6 +1,7 @@
 .vnav {
     border: solid 2px white;
-    width:200px;
+    //width:200px;
+    grid-area: nav;
     height: calc(100vh - 153px);
     transform: translateY(-1px);
     display: flex;
@@ -11,7 +12,7 @@
 
 .links {
     //display: flex;
-    margin:15px;
+    margin:1vw 2vw;
     width:min-content;
 }
 
@@ -33,16 +34,29 @@ a {
     font-size: 160%;
 }
 
-a:hover {
+.link:hover {
     filter: drop-shadow(0px 0px 5px #fff9);
+    background-position: 10% 0%;
+    transition: ease-out 100ms;
 }
 
 .credits {
     border: 1px solid white;
     width:min-content;
-    padding:5px 30px;
-    margin:0px auto 30px;
+    padding:0px 30px;
+    margin:0px auto 25px;
     color:white;
     font-family: 'VT323';
     font-size:160%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 7fr; 
+    grid-template-rows: auto;
+    grid-template-areas: "nav main";
+}
+
+.main {
+    grid-area: main;
 }

@@ -1,0 +1,23 @@
+.block {
+    padding:5px 25px;
+    font-size: 160%;
+    background-color: #0c0c0c;
+    color:#d7d7d7;
+    border:1px solid white;
+    margin:35px;
+    height:88%;
+}
+
+.comment {
+    color:#4aa66b;
+}
+
+.animate {
+    animation: blink 1s step-start 0s infinite;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0.0;
+    }
+}
