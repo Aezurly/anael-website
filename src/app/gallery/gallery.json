@@ -1,0 +1,64 @@
+{
+    "projects": [
+        {
+            "title": "The Woman in Black",
+            "picture": "../../assets/gallery/1.jpg",
+            "grow": 10
+        },
+        {
+            "title": "wah une belle photo",
+            "picture": "../../assets/gallery/6.jpg",
+            "grow": 1
+        },
+        {
+            "title": "hihouhaha",
+            "picture": "../../assets/gallery/3.jpg",
+            "grow": 2
+        },
+        {
+            "title": "wah une belle photo",
+            "picture": "../../assets/gallery/4.jpg",
+            "grow": 5
+        },
+        {
+            "title": "wah une belle photo",
+            "picture": "../../assets/gallery/5.jpg",
+            "grow": 1
+        },
+        {
+            "title": "wah une belle photo",
+            "picture": "../../assets/gallery/2.jpg",
+            "grow": 3
+        },
+        {
+            "title": "The Woman in Black",
+            "picture": "../../assets/gallery/5.jpg",
+            "grow": 10
+        },
+        {
+            "title": "wah une belle photo",
+            "picture": "../../assets/gallery/3.jpg",
+            "grow": 1
+        },
+        {
+            "title": "hihouhaha",
+            "picture": "../../assets/gallery/6.jpg",
+            "grow": 2
+        },
+        {
+            "title": "wah une belle photo",
+            "picture": "../../assets/gallery/2.jpg",
+            "grow": 5
+        },
+        {
+            "title": "wah une belle photo",
+            "picture": "../../assets/gallery/4.jpg",
+            "grow": 1
+        },
+        {
+            "title": "wah une belle photo",
+            "picture": "../../assets/gallery/2.jpg",
+            "grow": 3
+        }
+    ]
+} 

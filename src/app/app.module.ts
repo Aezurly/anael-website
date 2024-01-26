@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { VNavComponent } from './v-nav/v-nav.component';
 import { MainHomeComponent } from './main-home/main-home.component';
 import { MainProjectsComponent } from './main-projects/main-projects.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { FreeStuffComponent } from './free-stuff/free-stuff.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     VNavComponent,
     MainHomeComponent,
-    MainProjectsComponent
+    MainProjectsComponent,
+    GalleryComponent,
+    FreeStuffComponent
   ],
   imports: [
     BrowserModule,

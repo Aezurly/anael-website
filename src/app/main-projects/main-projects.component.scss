@@ -4,7 +4,7 @@
     align-content: flex-start;
     gap: 30px 8%;
     flex-wrap: wrap;
-    margin-top:30px;
+    margin:30px;
 }
 
 .container section {
@@ -16,7 +16,13 @@
     background-position: center;
     background-size:cover;
     border-radius: 10px;
-    box-shadow: 10px 10px 30px black;
+    box-shadow: 0px 0px 30px black;
+}
+
+.container section:hover {
+    filter:contrast(175%) brightness(650%) invert(100%);
+    cursor: pointer;
+    transition: ease-out 0.2s;
 }
 
 .container section h2 {
