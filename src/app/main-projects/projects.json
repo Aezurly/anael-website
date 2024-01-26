@@ -1,0 +1,34 @@
+{
+    "projects": [
+        {
+            "title": "The Woman in Black",
+            "poster": "../../assets/projects_img/1.jpg",
+            "description": "Un projet cool je n'en doute pas",
+            "date": "01/01/2001"
+        },
+        {
+            "title": "Chronicle",
+            "poster": "../../assets/projects_img/2.jpg",
+            "description": "Un projet cool je n'en doute pas",
+            "date": "01/01/2001"
+        },
+        {
+            "title": "Chronicle",
+            "poster": "../../assets/projects_img/3.jpg",
+            "description": "Un projet cool je n'en doute pas",
+            "date": "01/01/2001"
+        },
+        {
+            "title": "Chronicle",
+            "poster": "../../assets/projects_img/4.jpg",
+            "description": "Un projet cool je n'en doute pas",
+            "date": "01/01/2001"
+        },
+        {
+            "title": "Chronicle",
+            "poster": "../../assets/projects_img/5.jpg",
+            "description": "Un projet cool je n'en doute pas",
+            "date": "01/01/2001"
+        }
+    ]
+} 

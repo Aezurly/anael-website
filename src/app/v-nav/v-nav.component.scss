@@ -1,18 +1,21 @@
 .vnav {
     border: solid 2px white;
+    border-top: solid 1px;
     //width:200px;
     grid-area: nav;
     height: calc(100vh - 153px);
-    transform: translateY(-1px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: nowrap;
+    position: sticky;
+    top: 1px;
+    padding-bottom: 150px;
 }
 
 .links {
     //display: flex;
-    margin:0px 2vw;
+    margin:0px 15px;
     width:min-content;
 }
 
@@ -24,7 +27,7 @@
     background-size: 60px;
     background-repeat: no-repeat;
     padding: 18px 0px 0px 45px;
-    width:110px;
+    width:120px;
 }
 
 .link:last-child {
@@ -35,8 +38,8 @@
 a {
     text-decoration: none;
     color:white;
-    font-family: 'VT323';
-    font-size: 160%;
+    font-size: 135%;
+    align-self: center;
 }
 
 .link:hover {
@@ -51,8 +54,7 @@ a {
     padding:0px 30px;
     margin:0px auto 25px;
     color:white;
-    font-family: 'VT323';
-    font-size:160%;
+    font-size:125%;
 }
 
 .grid {
