@@ -4,37 +4,43 @@
             "title": "The Woman in Black",
             "poster": "../../assets/projects_img/1.jpg",
             "description": "Un projet cool je n'en doute pas",
-            "date": "01/01/2001"
+            "date": "01/01/2001",
+            "index" : 0
         },
         {
             "title": "Nom du projet",
             "poster": "../../assets/projects_img/2.jpg",
             "description": "Un projet cool je n'en doute pas",
-            "date": "01/01/2001"
+            "date": "01/01/2001",
+            "index" : 1
         },
         {
             "title": "Nom du projet",
             "poster": "../../assets/projects_img/3.jpg",
             "description": "Un projet cool je n'en doute pas",
-            "date": "01/01/2001"
+            "date": "01/01/2001",
+            "index" : 2
         },
         {
             "title": "Nom du projet",
             "poster": "../../assets/projects_img/4.jpg",
             "description": "Un projet cool je n'en doute pas",
-            "date": "01/01/2001"
+            "date": "01/01/2001",
+            "index" : 3
         },
         {
             "title": "Nom du projet",
             "poster": "../../assets/projects_img/5.jpg",
             "description": "Un projet cool je n'en doute pas",
-            "date": "01/01/2001"
+            "date": "01/01/2001",
+            "index" : 4
         },
         {
             "title": "Test",
             "poster": "../../assets/projects_img/5.jpg",
             "description": "Un projet cool je n'en doute pas",
-            "date": "01/01/2001"
+            "date": "01/01/2001",
+            "index" : 5
         }
     ]
 } 

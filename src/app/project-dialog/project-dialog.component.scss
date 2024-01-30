@@ -1,0 +1,22 @@
+body::before {
+    background-color: #111;
+    position: absolute;
+}
+
+section {
+    background-color: #111;
+    width: min(1000px, 80%);
+    height:500px;
+    align-self: center;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px black;
+    padding:10px;
+}
+
+.flexcenter {
+    position: fixed;
+    top:10%;
+    display: flex;
+    justify-content: center;
+    width:100%;
+}

@@ -1,7 +1,7 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"> </script>
 
 <div class="container" id="projects_container">
-    <section class="noise" *ngFor="let project of projectsList.projects" [ngStyle]="{'background-image': 'url('+ project.poster + ')'}">
+    <section class="noise" *ngFor="let project of projectsList.projects" (click)="openDialog(project)" [ngStyle]="{'background-image': 'url('+ project.poster + ')'}">
         <h2>{{project.title}}</h2>
         <p>{{project.date}}</p>
     </section>

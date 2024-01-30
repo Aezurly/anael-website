@@ -8,6 +8,8 @@ import { MainHomeComponent } from './main-home/main-home.component';
 import { MainProjectsComponent } from './main-projects/main-projects.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { FreeStuffComponent } from './free-stuff/free-stuff.component';
+import {MatDialogModule} from "@angular/material/dialog";
+import { ProjectDialogComponent } from './project-dialog/project-dialog.component';
 
 @NgModule({
   declarations: [
@@ -16,13 +18,16 @@ import { FreeStuffComponent } from './free-stuff/free-stuff.component';
     MainHomeComponent,
     MainProjectsComponent,
     GalleryComponent,
-    FreeStuffComponent
+    FreeStuffComponent,
+    ProjectDialogComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
+  //,entryComponents: [MainProjectsComponent]
 })
 export class AppModule { }
