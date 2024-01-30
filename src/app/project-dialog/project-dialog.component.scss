@@ -6,17 +6,46 @@ body::before {
 section {
     background-color: #111;
     width: min(1000px, 80%);
-    height:500px;
     align-self: center;
     border-radius: 25px;
-    box-shadow: 10px 10px 20px black;
-    padding:10px;
+    box-shadow: 10px 10px 20px max(100vw,100vh) #000a;
+    padding:30px;
+    border: double 4px white;
+    max-height: calc(100vh - 50px);
+    overflow-y: scroll;
 }
 
 .flexcenter {
     position: fixed;
-    top:10%;
+    top:0;
     display: flex;
     justify-content: center;
+    align-items: center;
     width:100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 300%;
+    margin:10px 25px;
+    font-weight: 200;
+}
+
+h4 {
+    float: right;
+    margin:0;
+    transform: translateY(-70px) translateX(-15px);
+}
+
+.image {
+    border-radius: 25px;
+    width:100%;
+    height: 130px;
+    background-size:cover;
+    background-position: center;
+}
+
+p {
+    text-align: justify;
+    white-space: pre-wrap;
 }

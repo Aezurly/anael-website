@@ -3,14 +3,13 @@
     border-top: solid 1px;
     //width:200px;
     grid-area: nav;
-    height: calc(100vh - 153px);
+    height: calc(100vh - 157px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: nowrap;
     position: sticky;
     top: 1px;
-    padding-bottom: 150px;
 }
 
 .links {

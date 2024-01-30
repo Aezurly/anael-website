@@ -30,7 +30,9 @@ export class MainProjectsComponent {
   openDialog(project: any): void {
     const dialogConfig = new MatDialogConfig();
 
-    dialogConfig.autoFocus = true;
+    dialogConfig.autoFocus = 'id_nav';
+    dialogConfig.hasBackdrop = true;
+    dialogConfig.disableClose = false;
 
     dialogConfig.data = {
       p: project

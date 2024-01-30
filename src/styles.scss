@@ -9,7 +9,28 @@ body {
         #262626 3px
     );
     margin:0px;
-    overflow-x:hidden;
+    overflow-y:hidden;
     font-family:  'Pixelify Sans';
     color:white;
+    scrollbar-width: thin;          /* "auto" or "thin" */
+    scrollbar-color: #fff #0d0d0d;   /* scroll thumb and track */ 
+}
+
+html {
+    overflow-y:hidden;
+    height: min-content;
+    overflow-x:hidden;
+}
+
+*::-webkit-scrollbar {
+    width: 2px;               /* width of the entire scrollbar */
+}
+  
+*::-webkit-scrollbar-track {
+    background: #0d0d0d;/* color of the tracking area */
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #fff;    /* color of the scroll thumb */
+    border-radius: 0px;      /* roundness of the scroll thumb */  /* creates padding around scroll thumb */
 }

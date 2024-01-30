@@ -1,16 +1,16 @@
-<section class="gallery">
+<section class="gallery" id="full_gallery">
     <div class="container">
-        <div *ngFor="let img of imagesList.projects; index as i" [ngStyle]="{'flex-grow': img.grow + ';' }" [ngClass]="( i % 3 === 0 ) ? 'item' : 'hidden' ">
+        <div *ngFor="let img of imagesList.projects; index as i" (click)="openDialog(img)" [ngStyle]="{'flex-grow': img.grow + ';' }" [ngClass]="( i % 3 === 0 ) ? 'item' : 'hidden' ">
             <h1>{{img.title}}</h1>
         <img src="{{img.picture }}" [ngClass]="( i % 3 === 0 ) ? 'item' : 'hidden' "></div>
     </div>
     <div class="container">
-        <div *ngFor="let img of imagesList.projects; index as i" [ngStyle]="{'flex-grow': img.grow + ';' }" [ngClass]="( i % 3 === 1 ) ? 'item' : 'hidden' ">
+        <div *ngFor="let img of imagesList.projects; index as i" (click)="openDialog(img)" [ngStyle]="{'flex-grow': img.grow + ';' }" [ngClass]="( i % 3 === 1 ) ? 'item' : 'hidden' ">
             <h1>{{img.title}}</h1>
             <img src="{{img.picture }}" [ngClass]="( i % 3 === 1 ) ? 'item' : 'hidden' "></div>
     </div>
     <div class="container">
-        <div *ngFor="let img of imagesList.projects; index as i" [ngStyle]="{'flex-grow': img.grow + ';' }" [ngClass]="( i % 3 === 2 ) ? 'item' : 'hidden' ">
+        <div *ngFor="let img of imagesList.projects; index as i" (click)="openDialog(img)" [ngStyle]="{'flex-grow': img.grow + ';' }" [ngClass]="( i % 3 === 2 ) ? 'item' : 'hidden' ">
             <h1>{{img.title}}</h1>
             <img src="{{img.picture }}" [ngClass]="( i % 3 === 2 ) ? 'item' : 'hidden' "></div>
     </div>
