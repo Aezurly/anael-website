@@ -44,7 +44,7 @@ div.item {
 
 .item:hover > img {
     //mix-blend-mode:color-dodge ;
-    filter:contrast(1) brightness(10) invert(100%) blur(5px);
+    filter:contrast(5) brightness(5) invert(100%) blur(5px);
     opacity: 0.9;
     z-index: -1;
 }

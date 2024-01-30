@@ -32,32 +32,32 @@
         },
         {
             "title": "The Woman in Black",
-            "picture": "../../assets/gallery/5.jpg",
+            "picture": "https://images.pexels.com/photos/1266808/pexels-photo-1266808.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "grow": 10
         },
         {
             "title": "wah une belle photo",
-            "picture": "../../assets/gallery/3.jpg",
+            "picture": "https://images.pexels.com/photos/372166/pexels-photo-372166.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "grow": 1
         },
         {
             "title": "hihouhaha",
-            "picture": "../../assets/gallery/6.jpg",
+            "picture": "https://images.pexels.com/photos/2832432/pexels-photo-2832432.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "grow": 2
         },
         {
             "title": "wah une belle photo",
-            "picture": "../../assets/gallery/2.jpg",
+            "picture": "https://images.pexels.com/photos/2911543/pexels-photo-2911543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "grow": 5
         },
         {
             "title": "wah une belle photo",
-            "picture": "../../assets/gallery/4.jpg",
+            "picture": "https://media1.tenor.com/m/zEZKCMYcaZYAAAAC/dune-dune2021.gif",
             "grow": 1
         },
         {
             "title": "wah une belle photo",
-            "picture": "../../assets/gallery/2.jpg",
+            "picture": "https://images.pexels.com/photos/1024967/pexels-photo-1024967.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
             "grow": 3
         }
     ]

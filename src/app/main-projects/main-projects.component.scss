@@ -20,9 +20,10 @@
 }
 
 .container section:hover {
-    filter:contrast(175%) brightness(650%) invert(100%);
+    filter:contrast(205%) brightness(300%) invert(100%);
     cursor: pointer;
     transition: ease-out 0.2s;
+    //font-size: 120%;
 }
 
 .container section h2 {
@@ -34,15 +35,27 @@
 }
 
 .container section * {
-    font-size: 100%;
-    margin-top: 0px;
-    margin-left: 10px;
-    font-weight: 100;
+    font-size: 110%;
+    margin:0px 5px;
+    font-weight: 200;
     color:#1e1e1e;
 }
 
 .container section p {
     float: inline-end;
+    position: absolute;
+    bottom:0;
+    right:-5px;
+    color:white;
+    background: radial-gradient(ellipse at 100% 100%, #0008, transparent 80%);
+    //backdrop-filter: blur(15px);
+    padding: 10px 5px 5px 80px;
+}
+
+section:hover p {
+    font-weight: 700;
+    //font-size: 250%;
+    filter: invert(100%);
 }
 
 .noise {
