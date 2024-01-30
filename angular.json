@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "anael-website:build:production"
+              "buildTarget": "anael-website:build:production"
             },
             "development": {
-              "browserTarget": "anael-website:build:development"
+              "buildTarget": "anael-website:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "anael-website:build"
+            "buildTarget": "anael-website:build"
           }
         },
         "test": {
