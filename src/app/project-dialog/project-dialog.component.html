@@ -1,5 +1,6 @@
 <div class="flexcenter"><section>
-    <div class="image" [ngStyle]="{'background-image': 'url('+ project.poster + ')'}"></div>
+    <div class="image" [ngStyle]="{'background-image': 'url('+ project.poster + ')'}">
+    <a (click)="close()">X</a></div>
     <h1>{{project.title}}</h1>
     <h4>{{project.date}}</h4>
     <hr>

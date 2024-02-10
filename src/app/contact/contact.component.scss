@@ -1,0 +1,43 @@
+app-social-medias {
+    display: block;
+    width:200px;
+    height:50px;
+    margin-left: 25px;
+}
+
+h1 {
+    font-size: 300%;
+    font-variant: small-caps;
+    font-weight: 100;
+    margin:0;
+}
+
+p {
+    margin:0;
+    //margin-left: -5px;
+    font-size: 90%;
+}
+
+section {
+    padding:40px;
+}
+
+.space {
+    margin:0 3ch;
+}
+
+.small-space {
+    margin:0 1ch;
+}
+
+a {
+    cursor:pointer;
+}
+
+.arrow {
+    text-emphasis-style: triangle;
+}
+
+.under {
+    text-emphasis-position: under right;
+}

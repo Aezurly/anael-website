@@ -1,0 +1,63 @@
+section {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height:100%;
+}
+
+div {
+    width:32px;
+    height:32px;
+    image-rendering: crisp-edges;
+    margin:3px;
+    border-radius: 3px;
+    filter: grayscale(50%);
+    cursor:pointer;
+    transition: 0.2s ease-in-out;
+}
+
+div:hover {
+    filter: grayscale(0%) brightness(100%) contrast(100%);;
+}
+
+#insta {
+    background-image: url('../../assets/socials/insta.png');
+}
+
+#insta:hover {
+    background-image: url('../../assets/socials/insta_clicked.png');
+}
+
+#itch {
+    background-image: url('../../assets/socials/itch.png');
+}
+
+#itch:hover {
+    background-image: url('../../assets/socials/itch_clicked.png');
+}
+
+#pat {
+    background-image: url('../../assets/socials/pat.png');
+}
+
+#pat:hover {
+    background-image: url('../../assets/socials/pat_clicked.png');
+}
+
+#twt {
+    background-image: url('../../assets/socials/twt.png');
+}
+
+#twt:hover {
+    background-image: url('../../assets/socials/twt_clicked.png');
+}
+
+#ytb {
+    background-image: url('../../assets/socials/ytb.png');
+}
+
+#ytb:hover {
+    background-image: url('../../assets/socials/ytb_clicked.png');
+}

@@ -49,3 +49,14 @@ p {
     text-align: justify;
     white-space: pre-wrap;
 }
+
+.image a {
+    position:absolute;
+    top:20px;
+    right:50px;
+    width:30px;
+    height:30px;
+    filter: drop-shadow(5px 5px 5px black);
+    font-size: 70px;
+    cursor: pointer;
+}

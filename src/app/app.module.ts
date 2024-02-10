@@ -10,6 +10,9 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { FreeStuffComponent } from './free-stuff/free-stuff.component';
 import {MatDialogModule} from "@angular/material/dialog";
 import { ProjectDialogComponent } from './project-dialog/project-dialog.component';
+import { AboutMeComponent } from './about-me/about-me.component';
+import { SocialMediasComponent } from './social-medias/social-medias.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { ProjectDialogComponent } from './project-dialog/project-dialog.componen
     MainProjectsComponent,
     GalleryComponent,
     FreeStuffComponent,
-    ProjectDialogComponent
+    ProjectDialogComponent,
+    SocialMediasComponent,
+    ContactComponent
+    //AboutMeComponent
   ],
   imports: [
     BrowserModule,
