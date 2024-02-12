@@ -24,10 +24,9 @@
 }
 
 .container section:hover {
-    filter:contrast(205%) brightness(300%) invert(100%);
+    filter:invert(100%);
     cursor: pointer;
     transition: ease-out 0.2s;
-    //font-size: 120%;
 }
 
 .container section h2 {
